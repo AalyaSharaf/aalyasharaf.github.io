@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	font-family: Verdana;
+	background-color: rgb(157,190,187);
+}
+
+p { 
+	font-size: 20px;
+}
+
+.title{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+	background-color: white;
+	position: relative;
+	top: 0;
+	text-align: center;		
+}
+
+.section-1{
+    position: relative; 
+    height: 100px;
+    margin-top: 10%;
+    padding-bottom: 25%;
+}
+
+.heading{
+	width:45%;
+    position: absolute;
+    top: 0;
+    left: 8%;
+    background: rgb(172, 126, 94, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.background-1{
+    width: 100%;
+    position: absolute;
+    top: 10;
+    left: 0;
+    background: rgb(172, 126, 94, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.text{
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.5);
+    top: 15%;
+    right: 5%;
+    padding: 40px;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+  	white-space: wrap;
+  	overflow: auto;
+  	text-overflow: ellipsis;
+
+}
+
+.section-2{
+	position: relative; 
+    height: 100px;
+    margin-top: 10%;
+    padding-bottom: 25%;
+}
+
+.vid-title{
+	position:absolute;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+	background-color: white;
+	text-align: center;	
+
+/*	margin-top:15%;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+	background-color: white;
+	position:absolute;
+	text-align: center;*/	
+}
+
+.vid{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background: rgb(172, 126, 94, 0.7);
+    padding: 10px;
+
+/*	background-color: rgb(172, 126, 94, 0.7);
+	position: absolute;
+	padding: 20px;
+	top: 10%;*/
+}
+
+.section-3{
+    position: relative; 
+    height: 100%;
+    margin: 40% 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+/*.group-members{
+	position:absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+	background-color: white;
+	text-align: center;	
+}*/
+
+
+.names{
+	position: absolute;
+	text-align: center;
+	background-color: rgb(255,255,255, 0.5);
+	margin:10% 0;
+	padding: 40px;
+	left: 10%;
+	right: 10%;
+
+
+
