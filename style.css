@@ -1,14 +1,18 @@
 body{
+    /* Wanted to remove all the margins from the webpage so that the titles
+    could take up the entire width of the website without being blocked. */
 	margin: 0;
 	font-family: Verdana;
 	background-color: rgb(157,190,187);
 }
 
 p { 
+    /* Wanted a bigger sized font for the paragraphs without it being bold */
 	font-size: 20px;
 }
 
 .title{
+    /* The page's main title (the one at the top of the page) */
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -20,6 +24,7 @@ p {
 }
 
 .section-1{
+    /* The main section that includes the first two images with their corresponding paragraphs */
     position: relative; 
     height: 100px;
     margin-top: 10%;
@@ -27,6 +32,7 @@ p {
 }
 
 .heading{
+    /* The two titles/ questions that are being asked */
 	width:45%;
     position: absolute;
     top: 0;
@@ -38,6 +44,7 @@ p {
 }
 
 .background-1{
+    /* The details of the images that are found in section 1 */
     width: 100%;
     position: absolute;
     top: 10;
@@ -49,6 +56,7 @@ p {
 
 
 .text{
+    /* The text, or parargraphs, that respond to the mentioned questions */
     width: 35%;
     height: 80%;
     position: absolute;
@@ -65,6 +73,7 @@ p {
 }
 
 .section-2{
+    /* The section that includes the video */
 	position: relative; 
     height: 100px;
     margin-top: 10%;
@@ -72,6 +81,7 @@ p {
 }
 
 .vid-title{
+    /* The main title (the one across the screen) */
 	position:absolute;
 	width: 100%;
 	padding-top: 20px;
@@ -82,6 +92,7 @@ p {
 }
 
 .vid{
+    /* The 30MFF video (still not playing for some reason) */
     width: 80%;
     position: absolute;
     top: 50%;
@@ -92,6 +103,7 @@ p {
 }
 
 .link{
+    /* Added a link just in case the video is not working */
 	text-align: center;
 	position: absolute;
 	margin-left: 5%;
@@ -99,6 +111,7 @@ p {
 }
 
 .section-3{
+    /* Final section that includes the group members */
     position: relative; 
     height: 100%;
     margin: 40% 0;
@@ -111,6 +124,7 @@ p {
 
 
 .names{
+    /* The 3 group members names */
 	position: absolute;
 	text-align: center;
 	background-color: rgb(255,255,255, 0.5);
